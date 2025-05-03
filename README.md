@@ -25,6 +25,8 @@ A Large Language Model (LLM) is a type of generative AI model trained on vast am
 2.Words with similar meanings have similar embeddings.
 ##### Positional Encoding:
 Since Transformers don't have a built-in sense of order, positional encodings tell the model the position of each token in the sequence.
+![ChatGPT Image May 3, 2025, 04_20_07 PM](https://github.com/user-attachments/assets/22ab1f2c-e161-4b29-8c0b-a41cdb0d7837)
+
 #### Encoding Positions :
 1.In Transformer-based LLMs, Positional Encoding is a critical concept used to help the model understand the order of words in a sequence something that traditional Transformers do not inherently capture.
 2.The transformer processes input sequences in parallel and
@@ -41,13 +43,14 @@ TYPES OF ATTENTION LLMS :
 2.Sparse Attention
 3.Cross Attention
 4.Self-Attention
-###  overview of LLMs:
-![image](https://github.com/user-attachments/assets/8be0eb63-0075-4928-8be7-936e63df87d0)
+
 
 #### Layer Normalization :
 Layer normalization leads to faster convergence and is an integrated component of transformers . In addition to LayerNorm  and RMSNorm, LLMs use pre-layer normalization, applying it before multi-head attention (MHA).
 Pre-norm is shown to provide training stability in LLMs. Another normalization variant, DeepNorm  fixes the issue with
 larger gradients in pre-norm.
+###  overview of LLMs:
+![image](https://github.com/user-attachments/assets/8be0eb63-0075-4928-8be7-936e63df87d0)
 
 ## 2.	Focusing on Generative AI architectures. (like transformers).
 The success of generative AI in recent years can largely be attributed to advancements in its underlying architectures, particularly the Transformer architecture. Introduced in the 2017 research paper "Attention Is All You Need," the Transformer model marked a significant shift by replacing traditional recurrent neural networks with attention mechanisms. This innovation allows the model to consider relationships between all elements of an input sequence simultaneously, making it highly efficient in processing large datasets.
